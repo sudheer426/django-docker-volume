@@ -3,7 +3,6 @@ FROM python:3.10
 
 # Set environment variables for Django
 ENV PYTHONUNBUFFERED 1
-ENV DJANGO_SETTINGS_MODULE=imageuploadproject.settings
 
 # Create and set the working directory to /app
 RUN mkdir /app
