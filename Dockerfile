@@ -5,7 +5,6 @@ FROM python:3.10
 ENV PYTHONUNBUFFERED 1
 
 # Create and set the working directory to /app
-RUN mkdir /app
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
