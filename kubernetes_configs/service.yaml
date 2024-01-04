@@ -9,4 +9,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 8000
-  type: LoadBalancer  # You can change the service type as needed
+  type: NodePort  # You can change the service type as needed
