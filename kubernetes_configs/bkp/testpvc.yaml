@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: dynamic-volume
+  name: dynamic-volume2
 spec:
-  storageClassName: manual
+  storageClassName: host-volume
   accessModes:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 1Gi
+      storage: 20Mi
